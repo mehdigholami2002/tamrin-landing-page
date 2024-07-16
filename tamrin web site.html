@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه غذا بام</title>
+    <style>
+        body {
+            font-family: 'Vazir', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ec343a;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .food-item2{
+            width: 50%;
+            padding: 2em 0;
+            margin: auto;
+        }
+        .food-item3{
+            width: 50%;
+            padding: 2em 0;
+            margin: auto;
+        }
+        .food-item4{
+            width: 50%;
+            padding: 2em 0;
+            margin: auto;
+        }
+        .food-item h1{
+            text-align: center;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #ec343a;
+            padding: 0 1em;
+        }
+        .rating {
+            padding: 0 1em;
+        }
+        .hero {
+            background-image: url('hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .signup {
+            background-color: #ec343a;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        .signup input {
+            padding: 0.5em;
+            margin: 0.5em;
+            border: none;
+            border-radius: 5px;
+        }
+        .signup button {
+            padding: 0.5em 2em;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #ec343a;
+            cursor: pointer;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .search-bar input {
+            padding: 0.5em;
+            width: 60%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 2em 0;
+        }
+        .category {
+            background-color: #ec343a;
+            color: white;
+            padding: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .category img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 0.5em;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .footer a {
+            color: #FA8072;
+            text-decoration: none;
+        }
+        /* تغییرات جدید */
+        .food-item table {
+            width: 80%; /* اندازه جدول را کوچک‌تر می‌کند */
+        }
+
+        .food-item .price, .food-item .rating {
+            font-size: 0.8em; /* اندازه فونت قیمت و امتیاز را کوچک‌تر می‌کند */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="image/778313_311.jpg" alt="خوش آمدید به فروشگاه غذا" style="width: 100%; height: auto;">
+    </div>
+    <div class="signup">
+        <h2>ثبت‌نام کنید</h2>
+        <input type="text" placeholder="نام">
+        <input type="email" placeholder="ایمیل">
+        <button>ثبت‌نام</button>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder=" جستجوی غذا و... ">
+    </div>
+    <div>
+            <br>
+        <div class="categories">
+            
+            <div class="category">
+                <img src="image/wall-249.jpg" alt="فست فود">
+                <p>فست فود</p>
+            </div>
+            <div class="category">
+                <img src="image/download.jpg" alt="سالاد">
+                <p>سالاد</p>
+            </div>
+            <div class="category">
+                <img src="image/downloadsh (1).jpg" alt="غذاهای دریایی">
+                <p>غذاهای دریایی</p>
+            </div>
+            <div class="category">
+                <img src="image/downloadss (1).jpg" alt="سوخاری">
+                <p>سوخاری</p>
+            </div>
+            <div class="category">
+                <img src="image/downloadff (1).jpg" alt="گیلانی">
+                <p>گیلانی</p>
+            </div>
+            <div class="category">
+                <img src="image/imageshh.jpg" alt="ساندویچ">
+                <p>ساندویچ</p>
+            </div>
+            <div class="category">
+                <img src="image/imageskk.jpg" alt="نوشیدنی">
+                <p>نوشیدنی</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class = "food-item2">
+            <div class="food-item">
+                <img src="image/Pizza.Photo_.67932.JPG.Thmb_.webp" alt="پیتزا">
+                <h2>پیتزا</h2>
+                <p>محتویات: پنیر، گوجه‌فرنگی، زیتون، فلفل دلمه‌ای</p>
+                <p class="price">قیمت: ۵۰۰,۰۰۰ تومان</p>
+                <p class="rating">امتیاز: ⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="food-item">
+                <img src="image/poster_f77561e8-bde3-4920-88b3-beafa8e8d126.jpeg" alt="برگر">
+                <h2>برگر</h2>
+                <p>محتویات: گوشت، پنیر، کاهو، گوجه‌فرنگی</p>
+                <p class="price">قیمت: ۴۰۰,۰۰۰ تومان</p>
+                <p class="rating">امتیاز: ⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+        <div class = "food-item3">
+            <div class="food-item">
+                <img src="image/pasta-mellatnewsaa.jpg" alt="پاستا">
+                <h2>پاستا</h2>
+                <p>محتویات: ماکارونی، سس گوجه‌فرنگی، گوشت چرخ‌کرده</p>
+                <p class="price">قیمت: ۳۰۰,۰۰۰ تومان</p>
+                <p class="rating">امتیاز: ⭐⭐⭐</p>
+            </div>
+            <div class="food-item">
+                <img src="image/06-06-2023-11-06-19-artwork-scaledkabab.jpg" alt="کباب">
+                <h2>کباب</h2>
+                <p>محتویات: گوشت، پیاز، ادویه</p>
+                <p class="price">قیمت: ۶۰۰,۰۰۰ تومان</p>
+                <p class="rating">امتیاز: ⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+        <div class = "food-item4">
+                <div class="food-item">
+                    <img src="image/hvag4ca4hzqegh.jpg" alt="قرمه سبزی">
+                    <h2>قرمه سبزی</h2>
+                    <p>محتویات: سبزی، لوبیا، گوشت</p>
+                    <p class="price">قیمت: ۴۵۰,۰۰۰ تومان</p>
+                    <p class="rating">امتیاز: ⭐⭐⭐⭐</p>
+                </div>
+        
+    </div>
+    <div class="footer">
+        <p>ارتباط با ما: mehdigholami2351382@gmail.com</p>
+        <p>مناطق و شهرهای ایران: تهران، مشهد، اصفهان، شیراز، تبریز و...</p>
+        <p><a href="#">دانلود اپلیکیشن</a></p>
+    </div>
+</body>
+</html>
